@@ -74,7 +74,7 @@
   /* ── grid ── */
   .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
     width: 100%;
     max-width: 960px;
@@ -212,7 +212,7 @@
   }
 
   /* ── responsive ── */
-  @media (max-width: 480px) {
+  @media (max-width: 600px) {
     body { padding: 32px 16px 48px; }
     .grid { grid-template-columns: 1fr; }
     h1 { font-size: 1.5rem; }
@@ -243,6 +243,18 @@
     <p class="card-desc">Evaluación económica de los distintos cultivos agrícolas con precios actualizados.</p>
   </a>
 
+  <a class="card" href="https://totoarduini.github.io/MB-Tambo-SRTL/" target="_blank">
+    <div class="card-header">
+      <div class="icon-box">🥛</div>
+      <span class="arrow">↗</span>
+    </div>
+    <div>
+      <p class="category">Tambo</p>
+      <p class="card-title">Margen Bruto Tambo</p>
+    </div>
+    <p class="card-desc">Análisis económico mensual del tambo: alimentación, personal, sanidad, reproducción y activos.</p>
+  </a>
+
   <a class="card" href="https://totoarduini.github.io/MB-Cria-SRTL/" target="_blank">
     <div class="card-header">
       <div class="icon-box">🐂</div>
@@ -265,18 +277,6 @@
       <p class="card-title">Margen Bruto Feedlot</p>
     </div>
     <p class="card-desc">Cálculo del margen bruto por cabeza en sistema de engorde a corral.</p>
-  </a>
-
-  <a class="card" href="https://totoarduini.github.io/MB-Tambo-SRTL/" target="_blank">
-    <div class="card-header">
-      <div class="icon-box">🥛</div>
-      <span class="arrow">↗</span>
-    </div>
-    <div>
-      <p class="category">Tambo</p>
-      <p class="card-title">Margen Bruto Tambo</p>
-    </div>
-    <p class="card-desc">Análisis económico mensual del tambo: alimentación, personal, sanidad, reproducción y activos.</p>
   </a>
 
 </div>
